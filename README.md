@@ -1,4 +1,4 @@
-# Welcome to our [team project website!](https://julioveracruz.github.io/testwebsite/)
+# [ColeAndFriendz](https://chasecarlson2.github.io/ColeAndFriendz.github.io/)Team Project Website
 
 This is a website to showcase our final project for FIN 377 - Data Science for Finance course at Lehigh University.
 
