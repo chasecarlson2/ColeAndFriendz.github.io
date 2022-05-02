@@ -38,6 +38,8 @@ This is a subsection, formatted in heading 3 style
 
 ## Analysis Section <a name="section3"></a>
 
+Below is the code used to create our predictive model.
+
 ```python
 #Predictive Model
 
@@ -84,7 +86,22 @@ parameters = {'elasticnet__alpha': param_1_List, 'elasticnet__l1_ratio': param_2
 grid_search = GridSearchCV(estimator=pipe,
                            param_grid=parameters,
                            #cv=10
+           )
+grid_search.fit(X_train, y_train)
+print("The optimized parameters output of the grid search are:")
+print(grid_search.best_params_)
+print("The score of the optimized output of the grid search on the training data is: " + str(grid_search.best_score_))
+scores = grid_search.score(X_test, y_test)
+print("Using our optimized model, the R2 score on the hold out data is: " + str(scores))
+predictions = grid_search.best_estimator_.predict(X_test)
+index = 0
+for i in predictions:
+    y_test_value = y_test.iloc[[index]].values[0]
+    print("Predicted:" + str(i) + " Actual: " + str(y_test_value) + " Difference: " + str(i-y_test_value))
+    index = index + 1
 ```
+
+From this model, we acheived an R2 of .5082863.
 
 Here are some graphs that we created in our analysis. We saved them to the `pics/` subfolder and include them via the usual markdown syntax for pictures.
 
