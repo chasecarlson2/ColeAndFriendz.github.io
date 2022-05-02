@@ -2,7 +2,7 @@
 
 This is a website to showcase our final project for FIN 377 - Data Science for Finance course at Lehigh University.
 
-To see the complete analysis file(s) click [here](https://github.com/julioveracruz/testwebsite/blob/main/notebooks/example.ipynb).
+To see the complete analysis file click [here](notebooks/model_analysis.ipynb).
 
 Maybe you want a different website them for the project? Consider `minimal-mistakes`:
 1. [Go here](https://github.com/mmistakes/mm-github-pages-starter/generate).
