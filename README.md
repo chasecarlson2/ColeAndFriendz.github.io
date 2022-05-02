@@ -21,13 +21,9 @@ The main goal of this project is to use the comprehensive CPI dataset to predict
 
 Here are some graphs developed from our dataset representing expected inflation and historical price vs. inflation correlation. 
 
-![](pics/Screen Shot 2022-05-02 at 4.00.02 PM.png)
+![](pics/Screen Shot 2022-05-02 at 4.19.24 PM.png)
 <br><br>
 Some analysis here
-<br><br>
-![](pics/Screen Shot 2022-05-02 at 4.00.26 PM.png)
-<br><br>
-More analysis here.
 <br><br>
 ![](pics/Screen Shot 2022-05-02 at 4.01.40 PM.png)
 <br><br>
@@ -35,11 +31,9 @@ More analysis.
 ![](pics/Screen Shot 2022-05-02 at 4.02.02 PM.png)
 <br><br>
 More analysis
-![](pics/Screen Shot 2022-05-02 at 4.02.17 PM.png)
+![](pics/Screen Shot 2022-05-02 at 4.19.01 PM.png)
 <br><br>
 More analysis
-
-Notice that the output does NOT show! **You have to copy in figures and tables from the notebooks.**
 
 ## Section <a name="section2"></a>
 Blah blah
