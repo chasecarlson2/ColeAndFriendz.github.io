@@ -19,11 +19,22 @@ The main goal of this project is to use the comprehensive CPI dataset to predict
 
 ## Methodology <a name="meth"></a>
 
-Here is some code that we used to develop our analysis. Blah Blah. [More details are provided in the Appendix](page2).
- 
-Note that for the purposes of the website, you have to copy this code into the markdown file and  
-put the code inside trip backticks with the keyword `python`.
+Here are some graphs developed from our dataset representing expected inflation and historical price vs. inflation correlation. 
 
+![](pics/Screen Shot 2022-05-02 at 4.00.02 PM.png)
+<br><br>
+Some analysis here
+<br><br>
+![](pics/Screen Shot 2022-05-02 at 4.00.26 PM.png)
+<br><br>
+More analysis here.
+<br><br>
+![](pics/Screen Shot 2022-05-02 at 4.01.40 PM.png)
+<br><br>
+More analysis.
+![](pics/Screen Shot 2022-05-02 at 4.01.40 PM.png)
+<br><br>
+More analysis
 
 Notice that the output does NOT show! **You have to copy in figures and tables from the notebooks.**
 
@@ -105,17 +116,6 @@ From this model, we acheived an R2 of **.5082863**.
 
 Here are some graphs that we created in our analysis. We saved them to the `pics/` subfolder and include them via the usual markdown syntax for pictures.
 
-![](pics/plot1.png)
-<br><br>
-Some analysis here
-<br><br>
-![](pics/plot2.png)
-<br><br>
-More analysis here.
-<br><br>
-![](pics/plot3.png)
-<br><br>
-More analysis.
 
 ## Summary <a name="summary"></a>
 
