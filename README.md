@@ -101,7 +101,7 @@ for i in predictions:
     index = index + 1
 ```
 
-From this model, we acheived an R2 of .5082863.
+From this model, we acheived an R2 of **.5082863**.
 
 Here are some graphs that we created in our analysis. We saved them to the `pics/` subfolder and include them via the usual markdown syntax for pictures.
 
