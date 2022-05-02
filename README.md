@@ -19,7 +19,7 @@ The main goal of this project is to use the comprehensive CPI dataset to predict
 
 ## Methodology <a name="meth"></a>
 
-Here are some graphs developed from our dataset representing expected inflation and historical price vs. inflation correlation. 
+Here are some graphs developed from our dataset representing historical inflation by date and sector price vs. expected inflation correlation. 
 
 ![](pics/Screen Shot 2022-05-02 at 4.19.24 PM.png)
 <br><br>
