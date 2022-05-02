@@ -2,7 +2,7 @@
 
 This is a website to showcase our final project for FIN 377 - Data Science for Finance course at Lehigh University.
 
-To see the complete analysis file click [here](notebooks/model_analysis.ipynb).
+To see the complete analysis file click [here](https://github.com/chasecarlson2/ColeAndFriendz.github.io/blob/8281b73a895d26380c0be030efd4ac2b9895a312/notebooks/model_analysis.ipynb).
 
 ## Table of contents
 1. [Introduction](#introduction)
