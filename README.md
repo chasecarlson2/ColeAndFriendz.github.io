@@ -15,7 +15,7 @@ To see the complete analysis file click [here](https://github.com/chasecarlson2/
 
 ## Introduction  <a name="introduction"></a>
 
-(The "Introduction" text above is formatted in heading 2 style.) The main goal of this project is to explore *(insert project idea here)*.  
+The main goal of this project is to use the comprehensive CPI dataset to predict monthly stock prices for the S&P 500 index as well as for specific sectors within the index. Using measurements such as monthy % changes, real risk premium, and inflation risk premium alongside inflation predictor variables, we aim to reach an R^2 value of .8 or greater. By aiming for an R^2 we do realize we are giving ourselves some room for error.
 
 ## Methodology <a name="meth"></a>
 
