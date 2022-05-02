@@ -122,13 +122,13 @@ Blah blah
 
 ## About the team
 
-<img src="pics/julio.jpg" alt="julio" width="300"/>
+<img src="..." alt="Chase" width="300"/>
 <br>
-Julio is a senior at Lehigh studying finance.
+Chase is a senior at Lehigh studying finance.
 <br><br><br>
-<img src="pics/don2.jpg" alt="don" width="300"/>
+<img src="..." alt="Cole" width="300"/>
 <br>
-Don is an assistant professor at Lehigh.
+Cole is a senior at Lehigh studying finance.
 
 
 ## More 
