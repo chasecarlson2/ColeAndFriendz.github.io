@@ -147,6 +147,7 @@ This website serves as a culmination of our final project. Our group is interest
 Data Sources
 Real risk premium, expected inflation, and inflation risk premium:
 URL: [https://www.clevelandfed.org/our-research/indicators-and-data/inflation-expectations.aspx](https://www.clevelandfed.org/our-research/indicators-and-data/inflation-expectations.aspx)
+<br><br>
 We acquired data for these variables from the Federal Reserve Bank of Cleaveland's website. This was a comprehensive dataset that provided us with information dating back to 1982. We were able to download the dataset into a CSV file directly from their website. Very minimal cleaning was needed.
 
 Actual Inflation:
