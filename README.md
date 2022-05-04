@@ -115,10 +115,11 @@ d = {'Prediction':predictions,'Actual':y_test[0:]}
 Health_pred = pd.DataFrame(d, columns=['Prediction','Actual'])
 Health_pred
 ```
-
-Health Sector Model R2: **0.005222862**.
-Real Estate Sector Model R2: **0.043317521**
-Energy Sector Model R2: **0.0128438255**
+| Health Sector Model R2      | **0.005222862** |   |   |   |
+|-----------------------------|-------------|---|---|---|
+| Real Estate Sector Model R2 | **0.043317521** |   |   |   |
+| Energy Sector Model R2      | **0.012843825** |   |   |   |
+|                             |             |   |   |   |
 
 Here are some graphs that we created in our analysis. We saved them to the `pics/` subfolder and include them via the usual markdown syntax for pictures.
 
