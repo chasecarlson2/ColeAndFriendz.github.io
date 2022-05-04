@@ -19,7 +19,34 @@ The main goal of this project is to use the comprehensive CPI dataset to predict
 
 ## Methodology <a name="meth"></a>
 
-Here are some graphs developed from our dataset representing historical inflation by date and sector price vs. expected inflation correlation. 
+After merging our datasets together, we aimed to find the correlation between different sector's prices and inflation in order to predict future prices. 
+
+Here is the code for some of the graphs below:
+
+```python
+sns.barplot(x="energy_inflation", y="Date", data=df2).set(title='Energy Inflation by Date')
+inflation_map = df2.pivot("Month", "Year", "actual_inflation")
+ax = sns.heatmap(inflation_map).set(title='Inflation by Date')
+plt.rcParams['figure.figsize'] = [15, 15] 
+plt.show()
+
+fig = plt.figure(figsize=(20, 5))
+fig1 = fig.add_subplot(121); sns.scatterplot(y=df2.spy_price, x=df2['Real Risk Premium'], palette='YlOrRd')
+fig2 = fig.add_subplot(122); sns.regplot(x='Inflation Risk Premium', y='spy_price', data=df2)
+fig1.title.set_text('Price vs Real Risk Premium')
+fig2.title.set_text('Price vs Inflation Risk Premium')
+plt.rcParams['figure.figsize'] = [15, 15] 
+plt.show()
+
+figB = plt.figure(figsize=(20, 5))
+fig4 = figB.add_subplot(122); sns.regplot(x='Expected Inflation', y='energy_price', data=df2)
+fig4.title.set_text('Energy Price vs Expected Inflation')
+plt.rcParams['figure.figsize'] = [15, 15] 
+plt.show()
+```
+
+
+Here are the graphs developed from our dataset representing historical inflation by date and sector price vs. expected inflation correlation. 
 
 ![](pics/Screen Shot 2022-05-02 at 4.19.24 PM.png)
 <br><br>
