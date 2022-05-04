@@ -7,11 +7,8 @@ To see the complete analysis file click [here](https://github.com/chasecarlson2/
 ## Table of contents
 1. [Introduction](#introduction)
 2. [Methodology](#meth)
-3. [Section 2](#section2)
-    1. [Subsection](#subsec2-1)
-    2. [Subsection](#subsec2-2)
-4. [Analysis Section](#section3)
-5. [Summary](#summary)
+3. [Analysis Section](#section3)
+4. [Summary](#summary)
 
 ## Introduction  <a name="introduction"></a>
 
@@ -65,15 +62,6 @@ Analysis: In this graph we see that there is a relationship between expected inf
 ![](pics/Screen Shot 2022-05-02 at 4.19.01 PM.png)
 <br><br>
 Analysis: When performing a similar analysis on the energy sector, inflation expectations have a different historical pattern. The point at which variability in energy prices is minimal is at 2.75 and above. Additionally, there is an even greater variability in these prices compared to the health sector. There appears to be a weak trend line for these values, but not one that alone could explain a large variance in the data.
-
-## Section <a name="section2"></a>
-Blah blah
-
-### Subsection 1 <a name="subsec2-1"></a>
-This is a subsection, formatted in heading 3 style
-
-### Subsection 2 <a name="subsec2-2"></a>
-This is a subsection, formatted in heading 3 style
 
 ## Analysis Section <a name="section3"></a>
 
