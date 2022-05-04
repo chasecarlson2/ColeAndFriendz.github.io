@@ -51,7 +51,7 @@ This is a subsection, formatted in heading 3 style
 Below is the code used to create our predictive model.
 
 ```python
-#Predictive Model
+#Health Predictive Model 
 
 import pandas as pd
 import numpy as np
@@ -65,18 +65,19 @@ from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 
 df2 = pd.read_csv("final_df.csv")
-y = df2.spy_returns
+y = df2.health_price
 y = y.iloc[1:]
-housing = df2.drop('spy_returns', axis=1)
+housing = df2.drop('health_price', axis=1)
 housing = housing[:-1]
 
 rng = np.random.RandomState(0)
 X_train, X_test, y_train, y_test = train_test_split(housing, y, random_state=rng, train_size=0.8)
 
-numeric_cols = ['expected_real_estate', 'expected_energy', 'expected_health', 'RE_inflat_ratio', 'energy_inflat_ratio',
-                'heath_inflat_ratio', 'actual_inflation', #'real_estate_price', 'health_price', 'energy_price',
-                'real_estate_inflation', 'health_inflation', 'energy_inflation', 'Expected Inflation',
-                'Real Risk Premium', 'Inflation Risk Premium']
+numeric_cols = ['expected_health', #'expected_real_estate', #'expected_energy',#'RE_inflat_ratio',# 'energy_inflat_ratio',
+                #'actual_inflation',# 'heath_inflat_ratio', #'real_estate_price', 'health_price', 'energy_price',
+                #'real_estate_inflation', #'health_inflation', 'energy_inflation', 'Expected Inflation',
+                'Real Risk Premium','Inflation Risk Premium', #'Expected Inflation'
+               ]
 numeric_pipe = make_pipeline(SimpleImputer(strategy='mean'), StandardScaler())
 preproc_pipe = ColumnTransformer(
     [  # arg 1 of ColumnTransformer is a list, so this starts the list
@@ -95,8 +96,8 @@ param_2_List = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
 parameters = {'elasticnet__alpha': param_1_List, 'elasticnet__l1_ratio': param_2_List}
 grid_search = GridSearchCV(estimator=pipe,
                            param_grid=parameters,
-                           #cv=10
-           )
+
+                 )
 grid_search.fit(X_train, y_train)
 print("The optimized parameters output of the grid search are:")
 print(grid_search.best_params_)
@@ -105,10 +106,14 @@ scores = grid_search.score(X_test, y_test)
 print("Using our optimized model, the R2 score on the hold out data is: " + str(scores))
 predictions = grid_search.best_estimator_.predict(X_test)
 index = 0
-for i in predictions:
-    y_test_value = y_test.iloc[[index]].values[0]
-    print("Predicted:" + str(i) + " Actual: " + str(y_test_value) + " Difference: " + str(i-y_test_value))
-    index = index + 1
+
+predictionDF = pd.DataFrame(predictions)
+predictionDF.describe()
+y_test_val = y_test[0:]
+y_testDF = pd.DataFrame(y_test_val)
+d = {'Prediction':predictions,'Actual':y_test[0:]}
+Health_pred = pd.DataFrame(d, columns=['Prediction','Actual'])
+Health_pred
 ```
 
 From this model, we acheived an R2 of **.5082863**.
