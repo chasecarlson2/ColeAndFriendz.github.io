@@ -4,17 +4,17 @@ Hi, welcome to ColeAndFriendz website! The team consists of Cole Humes, Chase Ca
 
 To see the complete analysis file click [here](https://github.com/chasecarlson2/ColeAndFriendz.github.io/blob/8281b73a895d26380c0be030efd4ac2b9895a312/notebooks/model_analysis.ipynb).
 
-## Table of contents
+## **Table of contents**
 1. [Introduction](#introduction)
 2. [Methodology](#meth)
 3. [Analysis Section](#section3)
 4. [Summary](#summary)
 
-## Introduction  <a name="introduction"></a>
+## **Introduction**  <a name="introduction"></a>
 
 Predicting stock prices accurately using machine learning is a very difficult task, but if done with some accuracy can be very financially rewarding. The main goal of this project is to use the comprehensive CPI dataset to predict monthly stock prices for the S&P 500 index as well as for specific sectors within the index. Using measurements such as monthy % changes, real risk premium, and inflation risk premium alongside inflation predictor variables, we aim to reach an R^2 value within .01-.02 or greater. By aiming for an R^2 we do realize we are giving ourselves some room for error.
 
-## Methodology <a name="meth"></a>
+## **Methodology** <a name="meth"></a>
 
 We know that stock prices are affected by more than inflation rates. However, if sector related inflation rates are expected to rise, the price of goods and services are expected to also rise and investors are more likely to to invest in stocks which will inherently drive up the price of stocks. 
 
@@ -63,7 +63,7 @@ Analysis: In this graph we see that there is a relationship between expected inf
 <br><br>
 Analysis: When performing a similar analysis on the energy sector, inflation expectations have a different historical pattern. The point at which variability in energy prices is minimal is at 2.75 and above. Additionally, there is an even greater variability in these prices compared to the health sector. There appears to be a weak trend line for these values, but not one that alone could explain a large variance in the data.
 
-## Analysis Section <a name="section3"></a>
+## **Analysis** <a name="section3"></a>
 
 Below is the code used to create our health sector predictive model. We used similar code for the real estate and energy sectors also.
 
@@ -138,13 +138,13 @@ Real Estate Sector Model R2: **0.043317521**
 <br><br>
 Energy Sector Model R2: **0.012843825**
 
-## Summary <a name="summary"></a>
+## **Summary** <a name="summary"></a>
 
 Blah blah
 
 
 
-## About the team
+## **About the team**
 
 <img src="..." alt="Chase" width="300"/>
 <br>
