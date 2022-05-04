@@ -23,17 +23,19 @@ Here are some graphs developed from our dataset representing historical inflatio
 
 ![](pics/Screen Shot 2022-05-02 at 4.19.24 PM.png)
 <br><br>
-Some analysis here
-<br><br>
+Analysis: In this heat map we can see a few things. First, during the financial crisis we see significantly different negative values shown by the darkest part of the graph. Second, 2015 has a dark portion reflecting trends noted in the previous graph. Lastly, from 2021 onwards we can see a trend of slowly elevating inflation beginning.
+
 ![](pics/Screen Shot 2022-05-02 at 4.01.40 PM.png)
 <br><br>
-More analysis.
+Analysis: This graph shows that there is not a correlation in every relationship. The inflation risk premium is not correlated with spy prices.
+
 ![](pics/Screen Shot 2022-05-02 at 4.02.02 PM.png)
 <br><br>
-More analysis
+Analysis: In this graph we see that there is a relationship between expected inflation and prices in the health sector. It is not a particularly strong relationship, when expected inflation is above approximately 2.25, changes in health price are minimal. However, there is increased variability in health prices below the 2.25 mark. Inflation expectations are not the only determinant of health price, so this relationship might not hold true in the future.
+
 ![](pics/Screen Shot 2022-05-02 at 4.19.01 PM.png)
 <br><br>
-More analysis
+Analysis: When performing a similar analysis on the energy sector, inflation expectations have a different historical pattern. The point at which variability in energy prices is minimal is at 2.75 and above. Additionally, there is an even greater variability in these prices compared to the health sector. There appears to be a weak trend line for these values, but not one that alone could explain a large variance in the data.
 
 ## Section <a name="section2"></a>
 Blah blah
