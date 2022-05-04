@@ -151,30 +151,37 @@ We acquired data for these variables from the Federal Reserve Bank of Cleaveland
 
 Actual Inflation:
 URL: [https://data.bls.gov/cgi-bin/surveymost?cu](https://data.bls.gov/cgi-bin/surveymost?cu)
+<br><br>
 We acquired actual inflation data from the U.S. Bureau of Labor Statistics. Specifically, the inflation numbers were derived from the All items in U.S. average series. We were able to download the data into a Microsoft Excel file which than had to be converted into a CSV file.
 
 Real Estate Sector Inflation:
 URL: [https://data.bls.gov/cgi-bin/surveymost?cu](https://data.bls.gov/cgi-bin/surveymost?cu)
+<br><br>
 We acquired real estate sector inflation data from the U.S. Bureau of Labor Statistics. Specifically, the inflation numbers were derived from the "U.S. Average, Shelter" series. We were able to download the data into a Microsoft Excel file which than had to be converted into a CSV file.
 
 Health Sector Inflation:
 URL: [https://data.bls.gov/cgi-bin/surveymost?cu](https://data.bls.gov/cgi-bin/surveymost?cu)
+<br><br>
 We acquired health sector inflation data from the U.S. Bureau of Labor Statistics. Specifically, the inflation numbers were derived from the "U.S. Average, Medical Care" series. We were able to download the data into a Microsoft Excel file which than had to be converted into a CSV file.
 
 Energy Sector Inflation:
 URL: [https://data.bls.gov/cgi-bin/surveymost?cu](https://data.bls.gov/cgi-bin/surveymost?cu)
+<br><br>
 We acquired energy sector inflation data from the U.S. Bureau of Labor Statistics. Specifically, the inflation numbers were derived from the "U.S. Average, Energy" series. We were able to download the data into a Microsoft Excel file which than had to be converted into a CSV file.
 
 Real Estate Sector Stock Prices:
 URL: [https://finance.yahoo.com/quote/IYR/history?p=IYR](https://finance.yahoo.com/quote/IYR/history?p=IYR)
+<br><br>
 To find stock prices for the real estate sector, we decided that an index which tracked U.S. real estate equities would be the best proxy. Thus, we landed on the iShares U.S. Real Estate ETF (IYR). This provided us with data stretching back to June 2000.
 
 Health Sector Stock Prices:
 URL: [https://finance.yahoo.com/quote/XLV/history?p=XLV](https://finance.yahoo.com/quote/XLV/history?p=XLV)
+<br><br>
 To find stock prices for the health sector, we decided that an index which tracked the health care sector would be the the best proxy. The team landed on Health Care Select Sector SPDR Fund (XLV). This provided us with data stretching back to 1998.
 
 Energy Sector Stock Prices:
 URL: [https://finance.yahoo.com/quote/XLE?p=XLE&.tsrc=fin-srch](https://finance.yahoo.com/quote/XLE?p=XLE&.tsrc=fin-srch)
+<br><br>
 To find stock prices for the energy sector, we decided that an index which tracked the energy sector directly would be the best proxy. Thus, we landed on Energy Select Sector SPDR Fund (XLE). This provided us with data stretching back to 1998.
 
 Real Estate Inflation Ratio, Health Inflation Ratio, Energy Inflation Ratio, Real Estate Expected Inflation, Health Expected Inflation, Energy Expected Inflation:
