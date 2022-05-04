@@ -2,6 +2,7 @@
 
 Hi, welcome to ColeAndFriendz website! The team consists of Cole Humes, Chase Carlson, Priya Bhatnagar, and Jake Betlow. This is a website to showcase our final project for FIN 377 - Data Science for Finance course at Lehigh University.
 
+To see the complete EDA file click [here](https://github.com/chasecarlson2/ColeAndFriendz.github.io/blob/73da8758fcdb7d01b284e45933d06e947b37d5ee/notebooks/load_clean_eda.ipynb)
 To see the complete analysis file click [here](https://github.com/chasecarlson2/ColeAndFriendz.github.io/blob/8281b73a895d26380c0be030efd4ac2b9895a312/notebooks/model_analysis.ipynb).
 
 ## **Table of contents**
