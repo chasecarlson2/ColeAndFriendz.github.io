@@ -19,7 +19,9 @@ The main goal of this project is to use the comprehensive CPI dataset to predict
 
 ## Methodology <a name="meth"></a>
 
-After merging our datasets together, we aimed to find the correlation between different sector's prices and inflation in order to predict future prices. 
+We know that stock prices are affected by more than inflation rates. However, if sector related inflation rates are expected to rise, the price of goods and services are expected to also rise and investors are more likely to to invest in stocks which will inherently drive up the price of stocks. 
+
+By looking at inflation trends and then using our model to predict inflation numbers for individual sectors,  we can come up with an idea about the actions investors may take in the future which will affect stock prices. 
 
 Here is the code for some of the graphs below:
 
