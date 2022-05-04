@@ -51,7 +51,7 @@ Here are the graphs developed from our dataset representing historical inflation
 <br><br>
 Analysis: In this heat map we can see a few things. First, during the financial crisis we see significantly different negative values shown by the darkest part of the graph. Second, 2015 has a dark portion reflecting trends noted in the previous graph. Lastly, from 2021 onwards we can see a trend of slowly elevating inflation beginning.
 
-![](pics/Screen Shot 2022-05-02 at 4.01.40 PM.png)
+![](pics/Screen Shot 2022-05-04 at 8.59.56 AM.png)
 <br><br>
 Analysis: This graph shows that there is not a correlation in every relationship. The inflation risk premium is not correlated with spy prices.
 
