@@ -140,21 +140,43 @@ Energy Sector Model R2: **0.012843825**
 
 ## **Summary** <a name="summary"></a>
 
-Blah blah
+This website serves as a culmination of our final project. Our group is interested in using the comprehensive CPI dataset to predict stock prices for the accompanying timeframe in question. We used monthly stock prices for the S&P 500 index as well as for specific sectors to calculate monthly percentage changes. We pulled our data from U.S Bureau of Labor Statistics and the Federal Reserve to ensure our model is forward looking, allowing for accurate predictions
 
+## Citations
 
+Data Sources
+Real risk premium, expected inflation, and inflation risk premium:
+URL: [https://www.clevelandfed.org/our-research/indicators-and-data/inflation-expectations.aspx](https://www.clevelandfed.org/our-research/indicators-and-data/inflation-expectations.aspx)
+We acquired data for these variables from the Federal Reserve Bank of Cleaveland's website. This was a comprehensive dataset that provided us with information dating back to 1982. We were able to download the dataset into a CSV file directly from their website. Very minimal cleaning was needed.
 
-## **About the team**
+Actual Inflation:
+URL: [https://data.bls.gov/cgi-bin/surveymost?cu](https://data.bls.gov/cgi-bin/surveymost?cu)
+We acquired actual inflation data from the U.S. Bureau of Labor Statistics. Specifically, the inflation numbers were derived from the All items in U.S. average series. We were able to download the data into a Microsoft Excel file which than had to be converted into a CSV file.
 
-<img src="..." alt="Chase" width="300"/>
-<br>
-Chase is a senior at Lehigh studying finance.
-<br><br><br>
-<img src="..." alt="Cole" width="300"/>
-<br>
-Cole is a senior at Lehigh studying finance.
+Real Estate Sector Inflation:
+URL: [https://data.bls.gov/cgi-bin/surveymost?cu](https://data.bls.gov/cgi-bin/surveymost?cu)
+We acquired real estate sector inflation data from the U.S. Bureau of Labor Statistics. Specifically, the inflation numbers were derived from the "U.S. Average, Shelter" series. We were able to download the data into a Microsoft Excel file which than had to be converted into a CSV file.
 
+Health Sector Inflation:
+URL: [https://data.bls.gov/cgi-bin/surveymost?cu](https://data.bls.gov/cgi-bin/surveymost?cu)
+We acquired health sector inflation data from the U.S. Bureau of Labor Statistics. Specifically, the inflation numbers were derived from the "U.S. Average, Medical Care" series. We were able to download the data into a Microsoft Excel file which than had to be converted into a CSV file.
 
-## More 
+Energy Sector Inflation:
+URL: [https://data.bls.gov/cgi-bin/surveymost?cu](https://data.bls.gov/cgi-bin/surveymost?cu)
+We acquired energy sector inflation data from the U.S. Bureau of Labor Statistics. Specifically, the inflation numbers were derived from the "U.S. Average, Energy" series. We were able to download the data into a Microsoft Excel file which than had to be converted into a CSV file.
 
-To view the GitHub repo for this website, click [here](https://github.com/donbowen/teamproject).
+Real Estate Sector Stock Prices:
+URL: [https://finance.yahoo.com/quote/IYR/history?p=IYR](https://finance.yahoo.com/quote/IYR/history?p=IYR)
+To find stock prices for the real estate sector, we decided that an index which tracked U.S. real estate equities would be the best proxy. Thus, we landed on the iShares U.S. Real Estate ETF (IYR). This provided us with data stretching back to June 2000.
+
+Health Sector Stock Prices:
+URL: [https://finance.yahoo.com/quote/XLV/history?p=XLV](https://finance.yahoo.com/quote/XLV/history?p=XLV)
+To find stock prices for the health sector, we decided that an index which tracked the health care sector would be the the best proxy. The team landed on Health Care Select Sector SPDR Fund (XLV). This provided us with data stretching back to 1998.
+
+Energy Sector Stock Prices:
+URL: [https://finance.yahoo.com/quote/XLE?p=XLE&.tsrc=fin-srch](https://finance.yahoo.com/quote/XLE?p=XLE&.tsrc=fin-srch)
+To find stock prices for the energy sector, we decided that an index which tracked the energy sector directly would be the best proxy. Thus, we landed on Energy Select Sector SPDR Fund (XLE). This provided us with data stretching back to 1998.
+
+Real Estate Inflation Ratio, Health Inflation Ratio, Energy Inflation Ratio, Real Estate Expected Inflation, Health Expected Inflation, Energy Expected Inflation:
+These variables were the result of calculations from the previously mentioned datasets. How we arived on these variables will be described below.
+
